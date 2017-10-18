@@ -1,6 +1,6 @@
 ## PHP-Composer
 
-This takes the latest stable official PHP Docker image (currently `php:7.1-cli`), and adds in Git and Composer.
+This takes the latest stable official PHP Docker image (currently `php:7.1-cli`), and adds in Git, Composer, and Zip.
 
 This is best  used for when you do not have PHP 7+ installed on your machine, and don't want to install it. In such a case, you may run into a chicken and egg issue with [Vessel](https://vessel.shippingdocker.com) where you cannot start a new Laravel project, nor get [Vessel](https://vessel.shippingdocker.com), until you have PHP 7, but you won't have PHP 7 until you install and setup Vessel.
 
