@@ -1,6 +1,6 @@
 FROM php:7.4-cli
 
-COPY --from=composer /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 RUN apt-get update \
     && apt-get install -y git zip unzip zlib1g-dev libzip-dev \
