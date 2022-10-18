@@ -1,5 +1,5 @@
 ## PHP-Composer
-Feel free to use our docker images located at [brixion/php-composer](https://hub.docker.com/repository/docker/brixion/php-composer).
+Feel free to use our docker images located at [brixion/php-composer](https://hub.docker.com/r/brixion/php-composer/tags).
 
 > This takes the latest stable official PHP Docker images (currently
 > `php: 8.1-cli`, `php:8.0-cli`, `php:7.4-cli`), and adds in Git,
